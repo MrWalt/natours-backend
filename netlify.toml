@@ -1,0 +1,6 @@
+[[plugins]]
+  package = "netlify-plugin-npm-cache"
+
+[build]
+  command = "npm install"
+  publish = "dist"
